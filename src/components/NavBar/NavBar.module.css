@@ -1,0 +1,61 @@
+.NavBarId {
+  /* position: absolute; */
+  background-color: transparent;
+  border-radius: 10px;
+  top: auto;
+  margin-left: 1200px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+
+.HomeNavBar {
+  /* position: absolute; */
+  border-radius: 8px;
+  border: none;
+  background-color: transparent;
+  right: 0;
+  height: 100%;
+  /* color: rgb(13, 88, 193); */
+  color: rgb(49, 183, 28);
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  -webkit-box-shadow: 10px 10px 51px 0px rgba(NaN, 11, 73, 1);
+  -moz-box-shadow: 10px 10px 51px 0px rgba(NaN, 11, 73, 1);
+  box-shadow: 10px 10px 51px 0px rgba(NaN, 11, 73, 1);
+}
+.HomeNavBar:hover {
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 35px;
+}
+
+.AboutNavBar {
+  border-radius: 8px;
+  border: none;
+  background-color: transparent;
+  right: 0;
+  height: 100%;
+  /* color: rgb(13, 88, 193); */
+  color: rgb(49, 183, 28);
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  -webkit-box-shadow: 10px 10px 51px 0px rgba(NaN, 11, 73, 1);
+  -moz-box-shadow: 10px 10px 51px 0px rgba(NaN, 11, 73, 1);
+  box-shadow: 10px 10px 51px 0px rgba(NaN, 11, 73, 1);
+}
+.AboutNavBar:hover {
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 35px;
+}
+
+.wrapperLink {
+  display: flex;
+  gap: 50px;
+  padding-left: 30px;
+}
