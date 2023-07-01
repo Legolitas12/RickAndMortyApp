@@ -15,6 +15,9 @@ const About = () => {
         donde alli me estoy especializando en el area a un 100% donde aca he
         aprendido mucho
       </p>
+      <div className={styles.ImgAbout}>
+        <img src="../../images/yoyoyo.jpg" alt="" />
+      </div>
     </div>
   );
 };

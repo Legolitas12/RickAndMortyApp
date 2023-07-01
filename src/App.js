@@ -8,12 +8,13 @@ import Cards from "./components/Cards/Cards";
 import NavBar from "./components/NavBar/NavBar";
 import About from "./components/About/About";
 import Form from "./components/Form/Form";
+import Favorites from "./components/Favorites/Favorites";
 // Router Dom
 import { Routes, Route, useLocation, useNavigate } from "react-router-dom";
 import Detail from "./components/Detail/Detail";
 
-const email = "ejemplo@gmail.com";
-const password = "password12";
+const email = "";
+const password = "";
 
 function App() {
   const [characters, setCharacters] = useState([]);
@@ -23,7 +24,7 @@ function App() {
 
   useEffect(() => {
     !access && navigate("/");
-  }, [access]);
+  }, [access, navigate]);
 
   const onSearch = (id) => {
     axios(`https://rickandmortyapi.com/api/character/${id}`).then(
@@ -60,6 +61,7 @@ function App() {
         />
         <Route path={"/about"} element={<About />} />
         <Route path={"/home/detail/:id"} element={<Detail />} />
+        <Route path={"/favorites"} element={<Favorites />} />
       </Routes>
     </div>
   );

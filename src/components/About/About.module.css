@@ -22,8 +22,15 @@
 }
 
 .AboutMe {
-  /* overflow: hidden; */
-  height: 100px;
-  width: 100px;
+  height: 800px;
+  width: 1800px;
   word-wrap: break-word;
+  margin: auto;
+  white-space: initial;
+}
+
+.ImgAbout {
+  background-image: URL("../../images/yoyoyo.jpg");
+  width: 360px;
+  height: 220px;
 }
