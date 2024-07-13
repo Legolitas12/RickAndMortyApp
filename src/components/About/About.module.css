@@ -34,3 +34,17 @@
   width: 360px;
   height: 220px;
 }
+
+@media (max-width: 768px){
+   .AboutMe {
+      height: 600px;
+      width: 1200px;
+    }
+   .ImgAbout {
+      background-image: URL("../../images/yoyoyo.jpg");
+      width: 280px;
+      height: 160px;
+    }
+  
+    
+}
